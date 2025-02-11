@@ -12,7 +12,7 @@ const Blogs = () => {
             Find a bright ideal to suit your taste with our great selection
           </p>
         </div>
-        <div className='flex gap-6 pt-10'>
+        <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-6 pt-10'>
             <Image src={"/images/card1.png"} alt='card' width={393} height={555}/>
             <Image src={"/images/card2.png"} alt='card' width={393} height={554}/>
             <Image src={"/images/card3.png"} alt='card' width={393} height={553}/>

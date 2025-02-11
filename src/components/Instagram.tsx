@@ -1,22 +1,21 @@
 import React from 'react'
-import Image from 'next/image'
 
 const Instagram = () => {
   return (
-    <main className='pt-10'>
-    <div className='bg-cover bg-center h-[450px]' style={{backgroundImage: "url('/images/image.png')"}}>
-      <h1 className='font-bold text-6xl leading-[90px] flex justify-center items-center pt-28'>
-        Our Instagram
+    <main className='w-full pt-10'>
+     <div className='bg-cover h-[450px] pt-10 items-center' style={{backgroundImage: "url('/images/image.png')"}}>
+      <h1 className='font-bold text-3xl sm:text-6xl leading-[90px] pt-10 text-center sm:mt-4'>
+         Our Instagram
       </h1>
-      <p className='flex justify-center items-center'>
-        Follow our store on Instagram
+      <p className='font-normal text-xl leading-[30px] text-center sm:mt-6'>
+         Follow our store on Instagram
       </p>
-      <div className='flex justify-center items-center pt-10'>
-       <button className=' border rounded-[50px] drop-shadow w-[255px] h-16'>
-        Follow Us
+      <div className='drop-shadow-2xl shadow-[#0000001A] text-center mt-2 sm:mt-8'>
+       <button className='font-normal text-xl leading-[30px] border border-black rounded-[50px] w-[255px] h-16 hover:bg-slate-500'>
+         Follow Us
        </button>
       </div>
-    </div>
+     </div>
     </main>
   )
 }

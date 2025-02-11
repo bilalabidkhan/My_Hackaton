@@ -3,19 +3,19 @@ import Image from 'next/image'
 
 const Hero = () => {
   return (
-   <section>  
-     <div className='flex bg-[#FBEBB5]'>
-       <div className='pt-72 pl-56'>
-         <h1 className='font-medium text-[64px]'>Rocket single seater</h1>
-         <button className='inline-block underline underline-offset-8'>
-          Shop Now
+   
+     <div className='w-full md:h-[735px] bg-[#FBEBB5] flex flex-col sm:flex-row items-center m'>
+       <div className=' '>
+         <h1 className=' font-medium text-[28px] sm:text-[50px] tracking px-10  mx-4 sm:mx-auto'>Rocket single seater</h1>
+         <button className='inline-block underline underline-offset-8 ml-10 md:ml-14 lg:ml-20'>
+           Shop Now
          </button>
         </div>
         <div className=''>
-          <Image src={"/images/seater.png"} alt='seater' width={853} height={1000}/>
+          <Image src={"/images/seater.png"} alt='seater' width={853} height={1000} className='w-full mt-10 rotate-[-180]'/>
         </div>
      </div> 
-   </section>
+  
   )
 }
 
